@@ -17,13 +17,14 @@
 }
 p{
   font-family: Raleway;
+  font-size: 1.2vw;
 }
 
 h1 {
   font-family: Cormorant;
   margin-top: 7%;
   font-weight: 400;
-  font-size: 1.4vw;
+  font-size: 1.5vw;
   font-style: normal;
   letter-spacing: 0.02em;
   text-transform: none;
@@ -93,9 +94,9 @@ a {
 }
 
 .navbar__link a {
-  font-size: 0.8rem;
-  padding: 16px 40px;
-  margin: 0 20px 0 5px;
+  font-size: 1vw;
+  padding: 2vh 2.5vw;
+  margin: 0 1.5vw 0 0.5vw;
   color: white;
   list-style-type: none;
   background: #75977e;
@@ -121,22 +122,22 @@ a {
 #projets {
   background: white;
   color: #75977e;
-  box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, 0.2);
+  box-shadow: 1.4vh 0.5vw 0.3vh 0.1vw rgba(0, 0, 255, 0.2);
 }
 
 #projets:hover {
-  box-shadow: 8px 8px 2px 1px #ff8150;
+  box-shadow: 1.4vh 0.5vw 0.3vh 0.1vw #ff8150;
   transform: scale(1.1);
 }
 
 #cv {
   background: white;
   color: #75977e;
-  box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, 0.2);
+  box-shadow: 1.4vh 0.5vw 0.3vh 0.1vw rgba(0, 0, 255, 0.2);
 }
 
 #cv:hover {
-  box-shadow: 8px 8px 2px 1px #ff8150;
+  box-shadow: 1.4vh 0.5vw 0.3vh 0.1vw #ff8150;
   transform: scale(1.1);
 }
 .reseaux {
