@@ -11,7 +11,7 @@ import Photowwh3 from "../assets/Projets/wild_heroes/wwh3.png";
 import Photowwh4 from "../assets/Projets/wild_heroes/wwh4.png";
 import LogoDH from "../assets/Projets/Derniere_heure/logo_global.png";
 import DHBG from "../assets/Projets/Derniere_heure/DHBG.png"
-import PhotoDH1 from "../assets/Projets/Derniere_heure/photoDH1.png";
+import PhotoDH1 from "../assets/Projets/Derniere_heure/PhotoDH1.png";
 import PhotoDH2 from "../assets/Projets/Derniere_heure/photoDH2.png";
 import PhotoDH3 from "../assets/Projets/Derniere_heure/photoDH3.png";
 import PhotoDH4 from "../assets/Projets/Derniere_heure/photoDH4.png";
