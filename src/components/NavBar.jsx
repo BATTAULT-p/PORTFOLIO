@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Photo from "../assets/log.png";
+import Photo from "../assets/logo3.jpeg";
 import Linkedin from "../assets/linkedin_logo.png";
 import Github from "../assets/github.png";
 

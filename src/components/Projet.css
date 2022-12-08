@@ -1,6 +1,9 @@
 .BGProjet{
     height: 100vh;
+    object-fit: cover;
     width: 100vw;
+    /* height: 100vh;
+    width: auto; */
     position: absolute;
     top: 0;
     right: 0;
@@ -50,7 +53,7 @@
     padding: 2vh 2.5vw;
     color: white;
     list-style-type: none;
-    background: #75977e;
+    background: #FF6851;
     opacity: 0.9;
     backdrop-filter: blur(20px);
     border-radius: 60px;
