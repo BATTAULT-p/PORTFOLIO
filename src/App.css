@@ -69,86 +69,11 @@ body {
   margin-top: 30%;
 }
 
-.navbar {
-  width: 100vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 15vh;
-  color: black;
-}
-.picture {
-  width: 15%;
-}
-
-.navbar ul {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-right: 2%;
-}
-
 a {
   color: black;
   text-decoration: none;
 }
 
-.navbar__link a {
-  font-size: 1vw;
-  padding: 2vh 2.5vw;
-  margin: 0 1.5vw 0 0.5vw;
-  color: white;
-  list-style-type: none;
-  background: #FF6851;
-  opacity: 0.9;
-  backdrop-filter: blur(20px);
-  border-radius: 60px;
-  -webkit-transition: all 0.8s ease;
-  -moz-transition: all 0.8s ease;
-  -ms-transition: all 0.8s ease;
-  -o-transition: all 0.8s ease;
-  transition: all 0.8s ease;
-}
-
-.navbar__link a:hover {
-  
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-#projets {
-  background: white;
-  color: #293681;
-  box-shadow: 1vh 0.5vw 0.3vh 0.1vw rgba(0, 0, 255, 0.2);
-}
-
-#projets:hover {
-  transform: scale(1.1);
-  box-shadow: 1vh 0.5vw 0.3vh 0.1vw #FF6851;
-}
-
-#cv {
-  background: white;
-  color: #293681;
-  box-shadow: 1vh 0.5vw 0.3vh 0.1vw rgba(0, 0, 255, 0.2);
-}
-
-#cv:hover {
-  transform: scale(1.1);
-  box-shadow: 1vh 0.5vw 0.3vh 0.1vw #FF6851;
-}
-.reseaux {
-  width: 10%;
-}
-#linkedin {
-  width: 2vw;
-}
-#git {
-  width: 2vw;
-}
 .homeClass {
   display: flex;
   flex-direction: column;
