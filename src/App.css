@@ -62,7 +62,7 @@ body {
 }
 
 .Photo {
-  width: 12vw;
+  width: 15vw;
   height: auto;
   padding: 3%;
   margin-left: 7%;
@@ -133,4 +133,20 @@ a {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+@media screen and (max-width:500px) {
+  .projectGrid {
+      display: grid;
+      padding-top: 5vw;
+      padding-bottom: 1.5vw;
+      min-height: 15vh;
+      width: 75%;
+      padding-left: 3vw;
+      padding-right: 3vw;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      grid-column-gap: 2vw;
+      grid-row-gap: 2vw;
+      grid-auto-rows: min-content;
+    }
 }

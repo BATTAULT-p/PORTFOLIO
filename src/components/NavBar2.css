@@ -17,7 +17,7 @@ nav{
     color: #293681;
     cursor:pointer;
 }
-.btn{
+.btn,.logo{
     display: none;
 }
 .picture {
@@ -63,11 +63,18 @@ nav{
 .btn{
     display: block;
     position: fixed;
-    right: 5vw;
+    right: 9vw;
     top: 2vh;
     width: 8vw;
     cursor: pointer;
     z-index: 300;
+}
+.logo{
+    display: flex;
+    width: 15vw;
+    margin: 0 auto;
+    padding-top: 2vh;
+
 }
 .routelist {
     display: flex;
@@ -114,12 +121,12 @@ nav{
     backdrop-filter: blur(20px);
     border-radius: 60px;
     -webkit-transition: all 0.8s ease;
-                -moz-transition: all 0.8s ease;
-                -ms-transition: all 0.8s ease;
-                -o-transition: all 0.8s ease;
-                transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
                 
-            }
+}
  .items:hover {
 
     -webkit-transform: scale(1.1);

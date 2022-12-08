@@ -29,6 +29,11 @@ const NavBar2 = () => {
 
   return (
     <nav>
+      {!toggleMenu && (
+        <Link to="/">
+          <img className="logo" src={Photo} alt="Logo" />
+        </Link>
+      )}
       {(toggleMenu || largeur > 500) && (
         <ul className="liste">
           <div className="picture">
