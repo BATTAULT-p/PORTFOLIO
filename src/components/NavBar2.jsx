@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { Sling as Hamburger } from "hamburger-react";
 import "./NavBar2.css";
 import Linkedin from "../assets/linkedin_logo.png";
 import Github from "../assets/github.png";
 import Photo from "../assets/logo3.jpeg";
-import cross from "../assets/Wrong-Cross-PNG-Transparent-Image.png";
-import burger from "../assets/hamburger.png";
 
 const NavBar2 = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -80,21 +79,16 @@ const NavBar2 = () => {
           </ul>
         </ul>
       )}
-      {toggleMenu || largeur < 500 ? (
-        <img
-          src={cross}
-          alt="croix"
-          onClick={toggleNavSmallScreen}
-          className="btn"
-        ></img>
-      ) : (
-        <img
-          src={burger}
-          alt="croix"
-          onClick={toggleNavSmallScreen}
-          className="btn"
-        ></img>
-      )}
+      <div className="btn">
+        <Hamburger
+          direction="right"
+          size={32}
+          color="black"
+          duration={1}
+          toggled={toggleMenu}
+          toggle={setToggleMenu}
+        />
+      </div>
     </nav>
   );
 };
