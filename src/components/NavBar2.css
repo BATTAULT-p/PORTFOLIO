@@ -37,7 +37,7 @@ nav{
     width: 3vw;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:800px){
 
 .liste{
     background-color: #03D3A9;
@@ -73,7 +73,7 @@ nav{
     display: flex;
     width: 15vw;
     margin: 0 auto;
-    padding-top: 2vh;
+    padding-top: 1vh;
 
 }
 .routelist {
@@ -102,7 +102,7 @@ nav{
 }
 }
 
-@media screen and (width > 500px) {
+@media screen and (width > 800px) {
 .routelist{
     display: flex;
     justify-content: space-evenly;

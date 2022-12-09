@@ -4,7 +4,7 @@ import { Sling as Hamburger } from "hamburger-react";
 import "./NavBar2.css";
 import Linkedin from "../assets/linkedin_logo.png";
 import Github from "../assets/github.png";
-import Photo from "../assets/logo3.jpeg";
+import Photo from "../assets/logo4.png";
 
 const NavBar2 = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -34,7 +34,7 @@ const NavBar2 = () => {
           <img className="logo" src={Photo} alt="Logo" />
         </Link>
       )}
-      {(toggleMenu || largeur > 500) && (
+      {(toggleMenu || largeur > 800) && (
         <ul className="liste">
           <div className="picture">
             <Link to="/" onClick={toggleNavSmallScreen}>

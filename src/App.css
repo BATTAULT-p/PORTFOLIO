@@ -15,10 +15,7 @@
 * {
   font-family: RalewayN;
 }
-p{
-  font-family: Raleway;
-  font-size: 1.2vw;
-}
+
 
 h1 {
   font-family: Cormorant;
@@ -66,7 +63,7 @@ body {
   height: auto;
   padding: 3%;
   margin-left: 7%;
-  margin-top: 50%;
+  margin-top: 30%;
 }
 
 a {
@@ -135,7 +132,7 @@ a {
   transform: scale(1.1);
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
   .projectGrid {
       display: grid;
       padding-top: 5vw;
@@ -149,19 +146,15 @@ a {
       grid-row-gap: 8vw;
       grid-auto-rows: min-content;
     }
-        .conteneurImg h3 {
-          top: 20%;
-          font-size: 6vw;
-        }
-                h1 {
-                  
-                  
-                  font-size: 4vw;
-              
-                }
-        
-                h2 {
-                  font-size: 6vw;
-                  text-align: center;
-                }
+  .conteneurImg h3 {
+      top: 20%;
+      font-size: 6vw;
+    }
+  h1 {                            
+      font-size: 4vw;        
+    }    
+  h2 {
+      font-size: 6vw;
+      text-align: center;
+    }
 }
