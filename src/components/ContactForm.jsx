@@ -14,6 +14,7 @@ function ContactForm() {
           name="contact"
           method="post"
           className="contact_form"
+          action="../pages/Home"
           data-netlify="true"
           onSubmit="submit"
         >
