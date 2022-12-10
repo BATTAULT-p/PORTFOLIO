@@ -51,20 +51,20 @@ const NavBar2 = () => {
               Mon travail
             </Link>
             <Link
-              to="/Description"
+              to="/Apropos"
               className="items"
               id="cv"
               onClick={toggleNavSmallScreen}
             >
               A propos
             </Link>
-            <a
-              href="mailto:paulbattault@gmail.com"
+            <Link
+              to="/Contact"
               className="items"
               onClick={toggleNavSmallScreen}
             >
-              Me contacter
-            </a>
+              Me Contacter
+            </Link>
           </ul>
           <ul className="reseaux">
             <a
