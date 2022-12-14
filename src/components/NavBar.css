@@ -28,15 +28,20 @@ nav {
   width: 10%;
   display: flex;
   justify-content: space-around;
+  
 }
 
 #linkedin {
-  width: 3vw;
+  width: 2vw;
+  padding-right: 1vw; 
 }
 
 #git {
-  width: 3vw;
+  width: 2vw;
+  margin-right: 2vw;
+  
 }
+
 
 @media screen and (max-width: 800px) {
   .liste {
@@ -135,10 +140,19 @@ nav {
     background: white;
     color: #293681;
     box-shadow: 1vh 0.5vw 0.3vh 0.1vw rgba(0, 0, 255, 0.2);
+      -webkit-transition: all 0.8s ease;
+        -moz-transition: all 0.8s ease;
+        -ms-transition: all 0.8s ease;
+        -o-transition: all 0.8s ease;
+        transition: all 0.8s ease;
   }
 
   #projets:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      transform: scale(1.1);
     box-shadow: 1vh 0.5vw 0.3vh 0.1vw #ff6851;
   }
 
@@ -146,10 +160,19 @@ nav {
     background: white;
     color: #293681;
     box-shadow: 1vh 0.5vw 0.3vh 0.1vw rgba(0, 0, 255, 0.2);
+    -webkit-transition: all 0.8s ease;
+      -moz-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+      -o-transition: all 0.8s ease;
+      transition: all 0.8s ease;
   }
 
   #cv:hover {
-    transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          -o-transform: scale(1.1);
+          transform: scale(1.1);
     box-shadow: 1vh 0.5vw 0.3vh 0.1vw #ff6851;
   }
 }

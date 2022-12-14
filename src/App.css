@@ -6,17 +6,13 @@
   font-family: RalewayN;
   src: url(./assets/Raleway-Regular.ttf);
 }
-@font-face {
-  font-family: Cormorant;
-  src: url(./assets/CormorantGaramond-Light.ttf);
-}
 
 * {
   font-family: RalewayN;
 }
 
 h1 {
-  font-family: Cormorant;
+  
   margin-top: 7%;
   font-weight: 400;
   font-size: 1.5vw;
@@ -26,7 +22,7 @@ h1 {
   color: white;
 }
 h2 {
-  font-family: Cormorant;
+  
   font-weight: 400;
   font-size: 2.7vw;
   font-style: normal;
@@ -35,7 +31,7 @@ h2 {
   color: white;
 }
 h3 {
-  font-family: Cormorant;
+
   font-weight: 400;
   font-size: 2vw;
   font-style: normal;
