@@ -10,7 +10,7 @@ import Photowwh2 from "../assets/Projets/wild_heroes/wwh2.png";
 import Photowwh3 from "../assets/Projets/wild_heroes/wwh3.png";
 import Photowwh4 from "../assets/Projets/wild_heroes/wwh4.png";
 import LogoDH from "../assets/Projets/Derniere_heure/logo_global.png";
-import DHBG from "../assets/Projets/Derniere_heure/DHBG.png"
+import DHBG from "../assets/Projets/Derniere_heure/DHBG.png";
 import PhotoDH1 from "../assets/Projets/Derniere_heure/PhotoDH1.png";
 import PhotoDH2 from "../assets/Projets/Derniere_heure/photoDH2.png";
 import PhotoDH3 from "../assets/Projets/Derniere_heure/photoDH3.png";
@@ -20,19 +20,23 @@ const Projets = [
   {
     id: 1,
     name: "Wild Circus",
-    background:CircusBG,
+    background: CircusBG,
     date: "Septembre 2022",
     description: "Création d'un site web pour une compagnie de cirque.",
-    paragraphe:"  Le Wild Circus est mon premier projet à la Wild Code School. Le but de ce projet était de créer un site internet pour une compagnie de cirque.",
-    paragraphe2:" Avec mon équipe composée d'Olga Yasnopolskaya, Nicolas DELISEE et Anthony LABADIE. Nous avons décidé de partir sur un site vitrine en une seule page pour fournir une meilleure lisibilité à l'utilisateur.",
-    paragraphe3:" Le site permet à l'utilisateur de voir les dates des prochaines représentations. Il est également possible d'en apprendre un peu plus sur les différents intervenants de la troupe. Enfin un formulaire de contact permet au visiteur de correspondre directement avec la troupe de spectacles.",
-    paragraphe4:" Le thème du projet nous a imposé le HTML, CSS et JavaScript en langage de programmation. Le site est aussi bien fonctionnel sur desktop que sur smartphone.",
+    paragraphe:
+      "  Le Wild Circus est mon premier projet à la Wild Code School. Le but de ce projet était de créer un site internet pour une compagnie de cirque.",
+    paragraphe2:
+      " Avec mon équipe composée d'Olga Yasnopolskaya, Nicolas DELISEE et Anthony LABADIE. Nous avons décidé de partir sur un site vitrine en une seule page pour fournir une meilleure lisibilité à l'utilisateur.",
+    paragraphe3:
+      " Le site permet à l'utilisateur de voir les dates des prochaines représentations. Il est également possible d'en apprendre un peu plus sur les différents intervenants de la troupe. Enfin un formulaire de contact permet au visiteur de correspondre directement avec la troupe de spectacles.",
+    paragraphe4:
+      " Le thème du projet nous a imposé le HTML, CSS et JavaScript en langage de programmation. Le site est aussi bien fonctionnel sur desktop que sur smartphone.",
     image1: PhotoCircus1,
     image2: PhotoCircus2,
     image3: PhotoCircus3,
     image4: PhotoCircus4,
-    repo:"https://github.com/BATTAULT-p/WILD_CIRCUS",
-    netlify:"https://relaxed-biscochitos-23f88f.netlify.app/"
+    repo: "https://github.com/BATTAULT-p/WILD_CIRCUS",
+    netlify: "https://relaxed-biscochitos-23f88f.netlify.app/",
   },
   {
     id: 2,
@@ -41,16 +45,20 @@ const Projets = [
     background: backwwh,
     date: "Novembre 2022",
     description: "Jeu de cartes WORLD WILD HEROES.",
-    paragraphe:"  World Wild Heroes est mon projet n°2 à la Wild Code School. Le but de ce projet était de développer un jeu à partir d'un API de super héros.",
-    paragraphe2:" Avec mon équipe composée de Yann STEFANUTTI, Alexandre PRE, Peter FLANDIN et Robin MICHEL. Nous avons décidé de partir sur un jeu de cartes qui ferait combattre les super héros des univers Marvel et DC Comics entre eux.",
-    paragraphe3:" Le joueur doit sélectionner deux héros légendaires en plus des huit héros classiques qui lui sont imposés. En suivant le match se lance et le but de chaque round est de sélectionner le héros le plus à même de remporter le combat en fonction d'un thème de combat énoncé. La partie se termine lorsque l'ordinateur ou le joueur 1 n'a plus de vie. Chaque joueur débute la partie avec 5 points de vies.",
-    paragraphe4:" Le thème du projet nous a imposé de programmer en REACT et de faire appel à une API. Le jeu a uniquement été pensé pour jouer sur desktop.",
+    paragraphe:
+      "  World Wild Heroes est mon projet n°2 à la Wild Code School. Le but de ce projet était de développer un jeu à partir d'un API de super héros.",
+    paragraphe2:
+      " Avec mon équipe composée de Yann STEFANUTTI, Alexandre PRE, Peter FLANDIN et Robin MICHEL. Nous avons décidé de partir sur un jeu de cartes qui ferait combattre les super héros des univers Marvel et DC Comics entre eux.",
+    paragraphe3:
+      " Le joueur doit sélectionner deux héros légendaires en plus des huit héros classiques qui lui sont imposés. En suivant le match se lance et le but de chaque round est de sélectionner le héros le plus à même de remporter le combat en fonction d'un thème de combat énoncé. La partie se termine lorsque l'ordinateur ou le joueur 1 n'a plus de vie. Chaque joueur débute la partie avec 5 points de vies.",
+    paragraphe4:
+      " Le thème du projet nous a imposé de programmer en REACT et de faire appel à une API. Le jeu a uniquement été pensé pour jouer sur desktop.",
     image1: Photowwh1,
     image2: Photowwh2,
     image3: Photowwh3,
     image4: Photowwh4,
-    repo:"https://github.com/BATTAULT-p/WILD_HEROES",
-    netlify:"https://beamish-moxie-122a33.netlify.app/"
+    repo: "https://github.com/BATTAULT-p/WILD_HEROES",
+    netlify: "https://beamish-moxie-122a33.netlify.app/",
   },
   {
     id: 3,
@@ -59,17 +67,21 @@ const Projets = [
     background: DHBG,
     date: "Novembre 2022",
     description: "L'agence de voyage de la dernière heure...",
-    paragraphe: "Bravo, BRAVO, On peut s’applaudir, on y est arrivé. La terre est morte, cassée, pourfendue par l’humanité, trahie par avidité. Tempêtes, incendies, canicules, grand froid, montée des eaux. La planète bleue n’est plus qu’une âme perdue dans l’obscurité.",
-    paragraphe2:"Mais pas de panique, ne courrez pas ! Au contraire, prenez quelques minutes pour découvrir la solution péremptoire à notre mal. Partez, partons vers le ciel. Trouvons un autre « Chez nous ».",
-    paragraphe3:"La compagnie « Dernière Heure » vous propose une multitude de destinations qui sauront apaiser vos peurs. Cependant il ne faut pas traîner, la planète Terre ne nous offre qu'une heure avant sa destruction finale !",
-    paragraphe4:"Dernière heure est le résultat de mon premier Hackathon. Mon équipe composée d'Alexandre PRE, Yann STEFANUTTI, Nicolas BAUDET et Julien DUSSART a remporté ce challenge haut la main en terminant à la première place !",
+    paragraphe:
+      "Bravo, BRAVO, On peut s’applaudir, on y est arrivé. La terre est morte, cassée, pourfendue par l’humanité, trahie par avidité. Tempêtes, incendies, canicules, grand froid, montée des eaux. La planète bleue n’est plus qu’une âme perdue dans l’obscurité.",
+    paragraphe2:
+      "Mais pas de panique, ne courrez pas ! Au contraire, prenez quelques minutes pour découvrir la solution péremptoire à notre mal. Partez, partons vers le ciel. Trouvons un autre « Chez nous ».",
+    paragraphe3:
+      "La compagnie « Dernière Heure » vous propose une multitude de destinations qui sauront apaiser vos peurs. Cependant il ne faut pas traîner, la planète Terre ne nous offre qu'une heure avant sa destruction finale !",
+    paragraphe4:
+      "Dernière heure est le résultat de mon premier Hackathon. Mon équipe composée d'Alexandre PRE, Yann STEFANUTTI, Nicolas BAUDET et Julien DUSSART a remporté ce challenge haut la main en terminant à la première place !",
     image1: PhotoDH1,
     image2: PhotoDH2,
     image3: PhotoDH3,
     image4: PhotoDH4,
-    repo:"https://github.com/BATTAULT-p/DERNIERE_HEURE",
-    netlify:"https://dazzling-toffee-ce31cf.netlify.app/"
-  }
+    repo: "https://github.com/BATTAULT-p/DERNIERE_HEURE",
+    netlify: "https://dazzling-toffee-ce31cf.netlify.app/",
+  },
 ];
 
 export default Projets;

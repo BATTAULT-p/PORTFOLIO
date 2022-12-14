@@ -1,175 +1,158 @@
 @font-face {
-    font-family: Raleway;
-    src: url(../assets/Raleway-Thin.ttf);
+  font-family: Raleway;
+  src: url(../assets/Raleway-Thin.ttf);
 }
 
-.BGProjet{
-    height: 100vh;
-    object-fit: cover;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: block;
-    z-index: -10;
-
+.BGProjet {
+  height: 100vh;
+  object-fit: cover;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  z-index: -10;
 }
-.theProject{
-    width: 100vw;
-    display: flex;
-    margin-top: 100vh;
+.theProject {
+  width: 100vw;
+  display: flex;
+  margin-top: 100vh;
 }
-.description{
-    margin-top: -15vh;
-    padding-top: 5vh;;
-    margin-left: 5vw;
-    width: 60%;
-  
+.description {
+  margin-top: -15vh;
+  padding-top: 5vh;
+  margin-left: 5vw;
+  width: 60%;
 }
 .description h1 {
-    margin-top: 0;
-    height:10%;
-    padding-top: 2vh;
-      
+  margin-top: 0;
+  height: 10%;
+  padding-top: 2vh;
 }
 .description h2 {
-    margin-top: 0;
-    padding-top: 3vh;
-    height: 30%;
-      
+  margin-top: 0;
+  padding-top: 3vh;
+  height: 30%;
 }
 .link {
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: start;
-    
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
 }
 
 .linkExt {
-
-    font-size: 1vw;
-    padding: 2vh 2.5vw;
-    color: white;
-    list-style-type: none;
-    background: #FF6851;
-    opacity: 0.9;
-    backdrop-filter: blur(20px);
-    border-radius: 60px;
-    -webkit-transition: all 0.8s ease;
-    -moz-transition: all 0.8s ease;
-    -ms-transition: all 0.8s ease;
-    -o-transition: all 0.8s ease;
-    transition: all 0.8s ease;
-        
+  font-size: 1vw;
+  padding: 2vh 2.5vw;
+  color: white;
+  list-style-type: none;
+  background: #ff6851;
+  opacity: 0.9;
+  backdrop-filter: blur(20px);
+  border-radius: 60px;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
 }
 
 .linkExt:hover {
-    background: #ff8150;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+  background: #ff8150;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
-.paragraphe{
-    margin-top: -15vh;
-    width: 40%;
-    padding-top: 5vh;
-    padding-right: 10vw;
-    padding-bottom: 5vh;
-    font-weight: 100;
-    letter-spacing: .08em;
+.paragraphe {
+  margin-top: -15vh;
+  width: 40%;
+  padding-top: 5vh;
+  padding-right: 10vw;
+  padding-bottom: 5vh;
+  font-weight: 100;
+  letter-spacing: 0.08em;
 }
-p{
-    font-family: Raleway;
-    font-size: 2.5vh;
-    color: white;
+p {
+  font-family: Raleway;
+  font-size: 2.5vh;
+  color: white;
 }
 
 .detailProject .Cadrephotos {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 5%;
-    padding-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .detailProject .Cadrephotos img {
-    width: 45%;
-    margin: 2.5%;
+  width: 45%;
+  margin: 2.5%;
 }
 
-@media screen and (max-width:800px) {
-.theProject {
+@media screen and (max-width: 800px) {
+  .theProject {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;  
+    width: 100%;
     padding: 0;
     margin-top: 85vh;
-  
-    }
-.description {
+  }
+  .description {
     margin: 0;
     padding: 0;
     width: 100%;
-
-    }
-.description h1 {
+  }
+  .description h1 {
     margin: 0;
     height: 10%;
     padding: 2vh;
     text-align: center;
-    
- 
-    }
-.description h2 {
+  }
+  .description h2 {
     margin: 0;
     padding: 2vh;
     height: 30%;
-   
-    
-    }
-.paragraphe {
+  }
+  .paragraphe {
     margin: 0;
     padding-top: 2vh;
-    padding-right:5vw;
+    padding-right: 5vw;
     padding-left: 5vw;
     padding-bottom: 2vh;
     width: 80%;
-    font-style: normal; 
+    font-style: normal;
     letter-spacing: normal;
-}
+  }
 
-p {
-        font-family: Raleway;
-        font-size: 2vh;
-    }
+  p {
+    font-family: Raleway;
+    font-size: 2vh;
+  }
 
-
-.link {
-   
+  .link {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     width: 100%;
     flex-direction: row;
     height: initial;
-    padding-top: 2vh ;
+    padding-top: 2vh;
     padding-bottom: 2vh;
     width: 100%;
-  
-}
-.linkExt {
-
+  }
+  .linkExt {
     font-size: 2.5vw;
     padding: 2vh 5vw;
     color: white;
     margin-left: 3vw;
     margin-right: 3vw;
     list-style-type: none;
-    background: #FF6851;
+    background: #ff6851;
     opacity: 0.9;
     backdrop-filter: blur(20px);
     border-radius: 60px;
@@ -178,26 +161,25 @@ p {
     -ms-transition: all 0.8s ease;
     -o-transition: all 0.8s ease;
     transition: all 0.8s ease;
+  }
 
-}
-
-.linkExt:hover {
+  .linkExt:hover {
     background: #ff8150;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
-}
-.detailProject .Cadrephotos {
+  }
+  .detailProject .Cadrephotos {
     display: flex;
     flex-wrap: wrap;
     padding-left: 5%;
     justify-content: center;
     padding-right: 5%;
-}
-.detailProject .Cadrephotos img {
+  }
+  .detailProject .Cadrephotos img {
     width: 70%;
     margin: 2.5%;
-}
+  }
 }
