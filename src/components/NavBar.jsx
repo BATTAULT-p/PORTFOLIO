@@ -17,7 +17,7 @@ const NavBar2 = () => {
   useEffect(() => {
     const changeWidth = () => {
       setLargeur(window.innerWidth);
-      if (window.innerWidth > 500) {
+      if (window.innerWidth > 800) {
         setToggleMenu(false);
       }
     };
