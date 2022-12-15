@@ -47,6 +47,7 @@ h3 {
 .photoText{
   margin-top: 9vh;
   height:80vh;
+  max-width: 80vw
 }
 body {
   margin: 0;
