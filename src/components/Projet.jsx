@@ -1,7 +1,7 @@
-import React from "react";
-import { useParams } from "react-router-dom";
-import Projets from "../tools/Projets";
-import "./Projet.css";
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import Projets from '../tools/Projets';
+import './Projet.css';
 
 function Projet() {
   const { id } = useParams();

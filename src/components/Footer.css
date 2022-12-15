@@ -1,49 +1,46 @@
-.footer{
-    margin-top: 7vh;
-    display:flex;
-    justify-content: space-between;
-    padding-left: 3vw;
-    padding-right: 3vw;
-   
+.footer {
+  margin-top: 7vh;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 .identite {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: start;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
 }
 
 .identite h1 {
-    font-size: 3vh;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+  font-size: 3vh;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 .identite h2 {
-    font-size: 2vh;
+  font-size: 2vh;
 }
-.social{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .contactLink {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: start;
-    color: white;
-   
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  color: white;
 }
 
 .contactLink a {
-    color: white;
-    border-bottom: solid white 1px;
+  color: white;
+  border-bottom: solid white 1px;
 }
 
 .contactLink a:hover {
-    border-bottom: solid black 2px;
+  border-bottom: solid black 2px;
 }

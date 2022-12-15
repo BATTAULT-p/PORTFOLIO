@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
 import Projets from "../tools/Projets";
 import photoText from "../assets/txt+photo-ordi.png";
+import photoTextPhone from "../assets/txt+photo-mobile.png";
 
-export default function Home() {
+export default function Home({ largeur }) {
   return (
     <div className="homeClass">
       <div>
-        <img src={photoText} alt="description" className="photoText"/>
+        {largeur > 800 ? (
+          <img src={photoText} alt="description" className="photoText" />
+        ) : (
+          <img src={photoTextPhone} alt="description" className="photoText" />
+        )}
       </div>
       <div className="projectGrid">
         {Projets.map((projet) => (
