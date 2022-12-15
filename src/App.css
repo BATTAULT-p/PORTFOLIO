@@ -12,12 +12,11 @@
 }
 
 h1 {
-  font-family: sofia-pro,
-      sans-serif;
-    font-style: normal;
-    font-weight: 100;
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
   margin-top: 7%;
-  
+
   font-size: 1.5vw;
   font-style: normal;
   letter-spacing: 0.02em;
@@ -25,9 +24,8 @@ h1 {
   color: white;
 }
 h2 {
-  font-family: sofia-pro,
-      sans-serif;
-  
+  font-family: sofia-pro, sans-serif;
+
   font-weight: 100;
   font-size: 2.7vw;
   font-style: normal;
@@ -36,7 +34,6 @@ h2 {
   color: white;
 }
 h3 {
-
   font-weight: 400;
   font-size: 2vw;
   font-style: normal;
@@ -44,10 +41,9 @@ h3 {
   text-transform: none;
   color: white;
 }
-.photoText{
+.photoText {
   margin-top: 9vh;
-  height:80vh;
-  max-width: 80vw
+  height: 80vh;
 }
 body {
   margin: 0;

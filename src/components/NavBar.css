@@ -28,20 +28,17 @@ nav {
   width: 10%;
   display: flex;
   justify-content: space-around;
-  
 }
 
 #linkedin {
   width: 5vw;
-  padding-right: 1vw; 
+  padding-right: 1vw;
 }
 
 #git {
   width: 5vw;
   margin-right: 2vw;
-  
 }
-
 
 @media screen and (max-width: 800px) {
   .liste {
@@ -136,13 +133,11 @@ nav {
     -o-transform: scale(1.1);
     transform: scale(1.1);
   }
-    .reseaux {
-      margin-top: 8vh;
-      margin-right: 5vh;
-      width: 10%;
-      display: flex;
-      justify-content: space-around;
-  
-    }
-
+  .reseaux {
+    margin-top: 8vh;
+    margin-right: 5vh;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+  }
 }

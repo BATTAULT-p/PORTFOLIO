@@ -1,5 +1,5 @@
-import React from "react";
-import "./ContactForm.css";
+import React from 'react';
+import './ContactForm.css';
 
 function ContactForm() {
   return (
@@ -22,7 +22,7 @@ function ContactForm() {
           <input type="text" name="name" placeholder="Nom" />
           <input type="email" name="email" placeholder="Email" />
           <input type="tel" name="tel" placeholder="Numéro de téléphone" />
-          <textarea rows="6" name="message" placeholder="Message"></textarea>
+          <textarea rows="6" name="message" placeholder="Message" />
           <button type="submit">Envoyer</button>
         </form>
       </section>

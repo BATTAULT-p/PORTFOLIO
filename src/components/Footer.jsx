@@ -1,9 +1,9 @@
-import React from "react";
-import Linkedin from "../assets/linkedin_logo.png";
-import Github from "../assets/github.png";
-import "./Footer.css";
+import React from 'react';
+import Linkedin from '../assets/linkedin_logo.png';
+import Github from '../assets/github.png';
+import './Footer.css';
 
-const Footer = () => {
+function Footer() {
   return (
     <div className="footer">
       <div className="identite">
@@ -35,6 +35,6 @@ const Footer = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Footer;
