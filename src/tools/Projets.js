@@ -1,16 +1,15 @@
-import CircusBG from "../assets/Projets/circus/circusBG.png";
-import PhotoCircus1 from "../assets/Projets/circus/circus1.png";
+import CircusBG from "../assets/Projets/circus/circusBG.jpg";
 import PhotoCircus2 from "../assets/Projets/circus/circus2.png";
 import PhotoCircus3 from "../assets/Projets/circus/circus3.png";
 import PhotoCircus4 from "../assets/Projets/circus/circus4.png";
 import LogoWWH from "../assets/Projets/wild_heroes/wwh_logo.png";
-import backwwh from "../assets/Projets/wild_heroes/wwhBG.png";
+import backwwh from "../assets/Projets/wild_heroes/wwhBG.jpg";
 import Photowwh1 from "../assets/Projets/wild_heroes/wwh1.png";
 import Photowwh2 from "../assets/Projets/wild_heroes/wwh2.png";
 import Photowwh3 from "../assets/Projets/wild_heroes/wwh3.png";
 import Photowwh4 from "../assets/Projets/wild_heroes/wwh4.png";
 import LogoDH from "../assets/Projets/Derniere_heure/logo_global.png";
-import DHBG from "../assets/Projets/Derniere_heure/DHBG.png";
+import DHBG from "../assets/Projets/Derniere_heure/DHBG.jpg";
 import PhotoDH1 from "../assets/Projets/Derniere_heure/PhotoDH1.png";
 import PhotoDH2 from "../assets/Projets/Derniere_heure/photoDH2.png";
 import PhotoDH3 from "../assets/Projets/Derniere_heure/photoDH3.png";
@@ -31,7 +30,7 @@ const Projets = [
       " Le site permet à l'utilisateur de voir les dates des prochaines représentations. Il est également possible d'en apprendre un peu plus sur les différents intervenants de la troupe. Enfin un formulaire de contact permet au visiteur de correspondre directement avec la troupe de spectacles.",
     paragraphe4:
       " Le thème du projet nous a imposé le HTML, CSS et JavaScript en langage de programmation. Le site est aussi bien fonctionnel sur desktop que sur smartphone.",
-    image1: PhotoCircus1,
+    image1: CircusBG,
     image2: PhotoCircus2,
     image3: PhotoCircus3,
     image4: PhotoCircus4,

@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: RalewayN;
-  src: url(./assets/Raleway-Regular.ttf);
+  src: url(./assets/sofiapro-light.otf);
 }
 
 * {
@@ -12,9 +12,12 @@
 }
 
 h1 {
-  
+  font-family: sofia-pro,
+      sans-serif;
+    font-style: normal;
+    font-weight: 100;
   margin-top: 7%;
-  font-weight: 400;
+  
   font-size: 1.5vw;
   font-style: normal;
   letter-spacing: 0.02em;
@@ -22,8 +25,10 @@ h1 {
   color: white;
 }
 h2 {
+  font-family: sofia-pro,
+      sans-serif;
   
-  font-weight: 400;
+  font-weight: 100;
   font-size: 2.7vw;
   font-style: normal;
   letter-spacing: 0.02em;
@@ -39,10 +44,14 @@ h3 {
   text-transform: none;
   color: white;
 }
+.photoText{
+  margin-top: 9vh;
+  height:80vh;
+}
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(45.21deg, #293681 10%, #03d3a9 111.58%);
+  background-image: url("./assets/fond-fonce.png");
   background-size: cover;
   background-attachment: fixed;
   width: 100vw;
@@ -55,11 +64,11 @@ body {
 }
 
 .Photo {
-  width: 15vw;
+  width: 9vw;
   height: auto;
   padding: 3%;
-  margin-left: 7%;
-  margin-top: 30%;
+  margin-left: 60%;
+  margin-top: 29%;
 }
 
 a {
