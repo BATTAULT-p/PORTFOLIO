@@ -12,7 +12,7 @@ const NavBar2 = ({
   toggleNavSmallScreen,
 }) => {
   return (
-    <nav>
+    <nav className="navbar">
       {!toggleMenu && (
         <Link to="/">
           <img className="logo" src={Photo} alt="Logo" />
@@ -20,11 +20,10 @@ const NavBar2 = ({
       )}
       {(toggleMenu || largeur > 800) && (
         <ul className="liste">
-          <div className="picture">
-            <Link to="/" onClick={toggleNavSmallScreen}>
-              <img className="Photo" src={Photo} alt="maPhoto" />
-            </Link>
-          </div>
+          <Link to="/" onClick={toggleNavSmallScreen}>
+            <img className="Photo" src={Photo} alt="maPhoto" />
+          </Link>
+
           <ul className="routelist">
             <Link
               to="/"
