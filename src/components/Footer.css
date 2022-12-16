@@ -1,8 +1,10 @@
 .footer {
   margin-top: 7vh;
+  padding-bottom: 5vh;
   display: flex;
   justify-content: space-between;
   width: 100vw;
+  
  
 }
 .identite {
@@ -59,6 +61,7 @@ width: 3vw;
 }
 
 @media screen and (max-width: 800px) {
+
 .identite h1 {
     font-size: 1.7vh;
     font-weight: bold;
@@ -74,6 +77,13 @@ width: 3vw;
     font-size: 1.5vh;
 
   }
+    #linkedinF {
+      width: 6vw;
+    }
+  
+    #gitF {
+      width: 6vw;
+    }
     .contactLink {
       display: flex;
       flex-direction: column;
