@@ -41,6 +41,12 @@ h3 {
   text-transform: none;
   color: white;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
 .photoText {
   margin-top: 9vh;
   height: 80vh;

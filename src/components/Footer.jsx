@@ -1,7 +1,7 @@
-import React from 'react';
-import Linkedin from '../assets/linkedin_logo.png';
-import Github from '../assets/github.png';
-import './Footer.css';
+import React from "react";
+import Linkedin from "../assets/linkedin_logo.png";
+import Github from "../assets/github.png";
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -18,14 +18,14 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={Linkedin} alt="linkedin_logo" id="linkedin" />
+            <img src={Linkedin} alt="linkedin_logo" id="linkedinF" />
           </a>
           <a
             href="https://github.com/BATTAULT-p"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={Github} alt="linkedin_logo" id="git" />
+            <img src={Github} alt="linkedin_logo" id="gitF" />
           </a>
         </ul>
       </div>
