@@ -4,8 +4,27 @@
 
 .contactDescription {
   width: 50%;
-  margin-top: 15vh;
+  margin-top: 10vh;
   padding: 10vh;
+}
+.contactDescription h2{
+font-weight: 100;
+}
+.bold{
+  font-family: RalewayN;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+.contactDescription h3 {
+  font-size: 2vh;
+  letter-spacing: 6px;
+  margin:0;
+  padding-bottom: 1vh;
+}
+.contactDescription a {
+  color: #03d3a9;
+  font-size: 2vw;
+  border-bottom: solid #03d3a9 2px;
 }
 .contact_form {
   margin-top: 15vh;
@@ -53,6 +72,7 @@
 
 .contact form button {
   border: none;
+  font-family: RalewayN;
   font-size: 18px;
   font-weight: 700;
   position: relative;
@@ -60,7 +80,7 @@
   margin-top: 25px;
   color: white;
   list-style-type: none;
-  background: #ff6851;
+  background: #03d3a9;
   opacity: 0.9;
   backdrop-filter: blur(20px);
   border-radius: 60px;

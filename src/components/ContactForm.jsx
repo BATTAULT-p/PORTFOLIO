@@ -1,13 +1,16 @@
-import React from 'react';
-import './ContactForm.css';
+import React from "react";
+import "./ContactForm.css";
 
 function ContactForm() {
   return (
     <div className="meContacter">
       <div className="contactDescription">
-        <h2>Un projet ? Une question ? Contactez-moi.</h2>
-        <h3>Paul BATTAULT</h3>
-        <h3>T. 06 40 89 93 80</h3>
+        <h2>
+          Un projet ? Une question ?{" "}
+          <span className="bold">Contactez-moi.</span>
+        </h2>
+        <h3>PAUL BATTAULT</h3>
+        <a href="tel:+33640899380">T. 06 40 89 93 80</a>
       </div>
       <section className="contact" id="connect">
         <form

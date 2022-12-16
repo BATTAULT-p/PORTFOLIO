@@ -4,11 +4,11 @@
 }
 @font-face {
   font-family: RalewayN;
-  src: url(./assets/sofiapro-light.otf);
+  src: url(./assets/Raleway-Regular.ttf);
 }
 
 * {
-  font-family: RalewayN;
+  font-family: Raleway;
 }
 
 h1 {
@@ -24,8 +24,6 @@ h1 {
   color: white;
 }
 h2 {
-  font-family: sofia-pro, sans-serif;
-
   font-weight: 100;
   font-size: 2.7vw;
   font-style: normal;
@@ -169,5 +167,6 @@ a {
       margin-top: 0vh;
       height: auto;
       width: 90vw;
+      margin-bottom: 8vh;
     }
 }
