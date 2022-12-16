@@ -1,16 +1,16 @@
-import { Link } from 'react-router-dom';
-import { Sling as Hamburger } from 'hamburger-react';
-import './NavBar.css';
-import Linkedin from '../assets/linkedin_logo.png';
-import Github from '../assets/github.png';
-import Photo from '../assets/logo4.png';
+import { Link } from "react-router-dom";
+import { Sling as Hamburger } from "hamburger-react";
+import "./NavBar.css";
+import Linkedin from "../assets/linkedin_logo.png";
+import Github from "../assets/github.png";
+import Photo from "../assets/logo4.png";
 
-function NavBar2({
+const NavBar2 = ({
   largeur,
   toggleMenu,
   setToggleMenu,
   toggleNavSmallScreen,
-}) {
+}) => {
   return (
     <nav>
       {!toggleMenu && (
@@ -80,6 +80,6 @@ function NavBar2({
       </div>
     </nav>
   );
-}
+};
 
 export default NavBar2;
