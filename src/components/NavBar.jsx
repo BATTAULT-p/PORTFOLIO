@@ -72,7 +72,7 @@ const NavBar2 = ({
         <Hamburger
           direction="right"
           size={32}
-          color="black"
+          color="white"
           duration={1}
           toggled={toggleMenu}
           toggle={setToggleMenu}
