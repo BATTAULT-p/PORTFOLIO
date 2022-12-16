@@ -1,5 +1,6 @@
 .meContacter {
   display: flex;
+  width: 100vw;
 }
 
 .contactDescription {
@@ -29,7 +30,7 @@ font-weight: 100;
 .contact_form {
   margin-top: 15vh;
   margin-bottom: 5vh;
-  width: 80%;
+  width: 100%;
 }
 
 .contact {
@@ -38,7 +39,7 @@ font-weight: 100;
 
 .contact form input,
 .contact form textarea {
-  width: 100%;
+  width: 80%;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
@@ -96,4 +97,55 @@ font-weight: 100;
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+  .meContacter {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+    }
+  .contactDescription {
+      width: 100vw;
+      margin-top: 10vh;
+      text-align: center;
+      
+      padding: 0;
+      
+    }
+        .contactDescription h2 {
+          font-weight: 100;
+         
+        }
+        .contactDescription h3 {
+          font-size: 1.2vh;
+          letter-spacing: 2px;
+          margin: 0;
+          padding: 0;
+      
+        }
+    
+        .contactDescription a {
+          margin: 0;
+          padding: 0;
+          color: #03d3a9;
+          font-size: 4vw;
+          border-bottom: solid #03d3a9 2px;
+        
+        }
+      
+        .contact {
+          width: 100vw;
+          margin-top: 7vh;
+          height: auto;
+          border: solid 2px white;
+        }
+        .contact_form {
+      
+          margin: auto;
+          margin-bottom: 5vh;
+          width: 70%;
+          border: solid 2px white;
+        }
+        
 }
