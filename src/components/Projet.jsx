@@ -1,10 +1,22 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
-import Projets from '../tools/Projets';
-import './Projet.css';
+import { React } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import Projets from "../tools/Projets";
+import "./Projet.css";
 
 function Projet() {
   const { id } = useParams();
+
+  const navigate = useNavigate();
+
+  const changeProject = (where, idProject) => {
+    if (idProject === 0 && where === "back") {
+      return;
+    }
+    where === "next"
+      ? navigate(`/MesProjets/${Number(id) + 1}`)
+      : navigate(`/MesProjets/${Number(id) - 1}`);
+  };
+
   return (
     <div className="detailProject">
       <img
@@ -50,6 +62,14 @@ function Projet() {
         <img src={Projets[id].image2} alt={Projets[id].name} />
         <img src={Projets[id].image3} alt={Projets[id].name} />
         <img src={Projets[id].image4} alt={Projets[id].name} />
+      </div>
+      <div className="project__next__wrapper">
+        {id > 0 && (
+          <button onClick={() => changeProject("back", id)}>Précédent</button>
+        )}
+        {id < 2 && (
+          <button onClick={() => changeProject("next", id)}>Suivant</button>
+        )}
       </div>
     </div>
   );

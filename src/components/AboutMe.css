@@ -1,0 +1,20 @@
+.aboutMe{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.aboutMe h2{
+    margin-top:10vh;
+}
+
+.aboutMeText{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid white;
+}

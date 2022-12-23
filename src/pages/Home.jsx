@@ -4,6 +4,7 @@ import photoText from "../assets/txt+photo-ordi.png";
 import photoTextPhone from "../assets/txt+photo-mobile.png";
 
 export default function Home({ largeur }) {
+  
   return (
     <div className="homeClass">
       <div>

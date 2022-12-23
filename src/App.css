@@ -53,6 +53,7 @@ ul {
 body {
   margin: 0;
   padding: 0;
+  background-color: #00363B;
   background-image: url("./assets/fond-fonce.png");
   background-size: cover;
   background-attachment: fixed;
