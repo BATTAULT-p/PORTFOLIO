@@ -144,7 +144,6 @@ p {
   letter-spacing: 2px;
   font-weight: 900;
   color: white;
- 
 }
 .fleche{
   font-family: RalewayN;
@@ -248,4 +247,12 @@ p {
     width: 70%;
     margin: 2.5%;
   }
+    .BTNS-next p,
+    .BTNS-back p {
+      font-family: RalewayN;
+      font-size: 2vh;
+      letter-spacing: 2px;
+      font-weight: 900;
+      color: white;
+    }
 }
