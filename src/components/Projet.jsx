@@ -72,11 +72,7 @@ function Projet() {
               onClick={() => changeProject("back", id)}
               className="BTNS-back"
             >
-              <img
-                src={precedent}
-                alt="boutton precedent"
-                className="BTN-Nav"
-              />
+              <p className="fleche">‹</p>
               <p>{Projets[Number(id) - 1].name}</p>
             </div>
           )}
@@ -88,7 +84,8 @@ function Projet() {
               className="BTNS-next"
             >
               <p>{Projets[Number(id) + 1].name}</p>
-              <img src={suivant} alt="boutton suivant" className="BTN-Nav" />
+              <p className="fleche">›</p>
+              {/* <img src={suivant} alt="boutton suivant" className="BTN-Nav" /> */}
             </div>
           )}
         </div>
