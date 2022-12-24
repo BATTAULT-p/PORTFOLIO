@@ -4,12 +4,10 @@ import NavBar from "./components/NavBar";
 import Transition from "./components/Transition";
 import Footer from "./components/Footer";
 import "./App.css";
-import ScrollToTop from "@components/ScrollToTop";
 
 function App() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [largeur, setLargeur] = useState(window.innerWidth);
-  console.log(largeur);
   const toggleNavSmallScreen = () => {
     setToggleMenu(!toggleMenu);
   };

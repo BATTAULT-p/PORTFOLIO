@@ -2,8 +2,6 @@ import { React } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Projets from "../tools/Projets";
 import "./Projet.css";
-import precedent from "../assets/bouton-precedent.png";
-import suivant from "../assets/bouton-suivant.png";
 
 function Projet() {
   const { id } = useParams();
@@ -85,7 +83,6 @@ function Projet() {
             >
               <p>{Projets[Number(id) + 1].name}</p>
               <p className="fleche">›</p>
-              {/* <img src={suivant} alt="boutton suivant" className="BTN-Nav" /> */}
             </div>
           )}
         </div>

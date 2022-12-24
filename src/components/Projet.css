@@ -147,14 +147,14 @@ p {
 }
 .fleche{
   font-family: RalewayN;
-    font-size: 3vw;
-    padding: 1vh 2vw;
-    color: white;
-    list-style-type: none;
-    background: #03d3a9;
-    opacity: 0.9;
-    backdrop-filter: blur(20px);
-    border-radius: 60px;
+  font-size: 3vw;
+  padding: 1vh 2vw;
+  color: white;
+  list-style-type: none;
+  background: #03d3a9;
+  opacity: 0.9;
+  backdrop-filter: blur(20px);
+  border-radius: 60px;
   margin : 5%;
 }
 
@@ -247,12 +247,15 @@ p {
     width: 70%;
     margin: 2.5%;
   }
-    .BTNS-next p,
-    .BTNS-back p {
-      font-family: RalewayN;
-      font-size: 2vh;
-      letter-spacing: 2px;
-      font-weight: 900;
-      color: white;
-    }
+  .BTNS-next p,
+  .BTNS-back p {
+    font-family: RalewayN;
+    font-size: 2vh;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: white;
+  }
+  .fleche {   
+    padding: 1vh 4vw;
+  }
 }
