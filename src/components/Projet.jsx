@@ -2,6 +2,8 @@ import { React } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Projets from "../tools/Projets";
 import "./Projet.css";
+import precedent from "../assets/bouton-precedent.png";
+import suivant from "../assets/bouton-suivant.png";
 
 function Projet() {
   const { id } = useParams();
@@ -64,12 +66,32 @@ function Projet() {
         <img src={Projets[id].image4} alt={Projets[id].name} />
       </div>
       <div className="project__next__wrapper">
-        {id > 0 && (
-          <button onClick={() => changeProject("back", id)}>Précédent</button>
-        )}
-        {id < 2 && (
-          <button onClick={() => changeProject("next", id)}>Suivant</button>
-        )}
+        <div className="back">
+          {id > 0 && (
+            <div
+              onClick={() => changeProject("back", id)}
+              className="BTNS-back"
+            >
+              <img
+                src={precedent}
+                alt="boutton precedent"
+                className="BTN-Nav"
+              />
+              <p>{Projets[Number(id) - 1].name}</p>
+            </div>
+          )}
+        </div>
+        <div className="next">
+          {id < 2 && (
+            <div
+              onClick={() => changeProject("next", id)}
+              className="BTNS-next"
+            >
+              <p>{Projets[Number(id) + 1].name}</p>
+              <img src={suivant} alt="boutton suivant" className="BTN-Nav" />
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

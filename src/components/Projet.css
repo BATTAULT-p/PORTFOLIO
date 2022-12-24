@@ -94,6 +94,62 @@ p {
   width: 45%;
   margin: 2.5%;
 }
+.project__next__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 10vh;
+  margin : 10vh auto;
+}
+.BTNS-back{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 30vw;
+  height: 10vh;
+  margin : 10vh auto;
+  cursor: pointer;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+.BTNS-back:hover, .BTNS-next:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.BTNS-next {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 30vw;
+  height: 10vh;
+  margin: 10vh auto;
+  cursor: pointer;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+.BTNS-next p, .BTNS-back p{
+  font-family: RalewayN;
+  font-size: 3vh;
+  letter-spacing: 2px;
+  font-weight: 900;
+  color: white;
+}
+
+.BTN-Nav{
+  width: 5vw;
+  height: auto;
+  margin : 5%;
+}
 
 @media screen and (max-width: 800px) {
   .theProject {
