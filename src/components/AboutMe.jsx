@@ -1,5 +1,7 @@
 import React from "react";
 import "./AboutMe.css";
+import cvBlack from "../../CV-PaulBattault-black-stage.pdf";
+import cvWhite from "../../CV-PaulBattault-white-stage.pdf";
 
 function AboutMe() {
   return (
@@ -23,7 +25,7 @@ function AboutMe() {
         </p>
         <div className="CV">
           <a
-            href="../CV-PaulBattault-black-stage.pdf"
+            href={cvBlack}
             title="pdf"
             target="_blank"
             rel="noreferrer"
@@ -33,7 +35,7 @@ function AboutMe() {
           </a>
           <br />
           <a
-            href="../CV-PaulBattault-white-stage.pdf"
+            href={cvWhite}
             title="pdf"
             target="_blank"
             rel="noreferrer"
