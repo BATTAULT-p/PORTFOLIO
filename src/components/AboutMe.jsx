@@ -21,6 +21,27 @@ function AboutMe() {
           intensive de 5 mois où on mise sur l'entraide, la recherche et le
           développement de l'autonomie de chacun.
         </p>
+        <div className="CV">
+          <a
+            href="../CV-PaulBattault-black-stage.pdf"
+            title="pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="linkExt"
+          >
+            Mon CV
+          </a>
+          <br />
+          <a
+            href="../CV-PaulBattault-white-stage.pdf"
+            title="pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="linkExt"
+          >
+            Mon CV (version imprimable)
+          </a>
+        </div>
       </div>
     </div>
   );

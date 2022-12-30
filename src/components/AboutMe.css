@@ -16,5 +16,13 @@
     align-items: center;
     justify-content: center;
     padding: 0;
-    border: 1px solid white;
+}
+.CV {
+    width: 100%;
+    align-items: center;
+    height: 15vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
